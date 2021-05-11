@@ -1,0 +1,42 @@
+@import "general";
+@import "estilos";
+@import "bootstrap";
+// BEM
+.titulosHeader{
+    text-align: center;
+    background-color:#FFC48C; 
+    font-size: 400%
+}
+.homeSection{
+    margin: 5%;
+    text-align: center;
+    display: block;
+    font-size: 156%;
+    text-align: center;
+}
+.homeCajas{
+    border-color: red;
+    border: 4px inset rgba(164,10,10,0.79);
+}
+.contactoEspacio{
+    height: 5vh;
+}
+.contactoEspacioDos{
+    margin: 6px;
+}
+.recomendacionGridBordes{
+    padding: 10px;
+    margin: 5px;
+    border: solid 2px red;
+}
+.productosTitulo{
+    font-size: 150%;
+    color: black;
+}
+.footerOvalo{
+    height: 90px;
+	border-top-left-radius: 50% 100%;
+	border-top-right-radius: 50% 100%;
+	width: auto;
+    background-image: linear-gradient(to top, rgba(255, 214, 202, 0.801),  rgba(255, 166, 139, 0.801));
+}

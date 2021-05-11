@@ -1,0 +1,38 @@
+$medidas: (color: black, bold: 10px);
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; // allow us to do the line break for collapsing content
+    align-items: center;
+    justify-content: space-between;
+}
+@each $medidas in nav, div, p{
+    #{$medidas} {
+        color: black;
+        font-size: 20px;
+    }
+}
+
+@for $medidas from 1 through 2 {
+    .espacio-#{$medidas} { 
+        margin: 2.5px * $medidas;
+     }
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  
+    .nav-link {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  
+    .dropdown-menu {
+      position: static;
+      float: none;
+    }
+}

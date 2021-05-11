@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif; }
+
+body {
+  background: linear-gradient(184deg, #f0bbbb 25%, #f3b993 54%, #ffd8c4 100%); }
+
+.homeCajas, .bordes {
+  border-color: red;
+  border: 4px inset rgba(164, 10, 10, 0.79);
+  background-color: rgba(255, 214, 202, 0.801); }
+
+.bordesRedondeados {
+  border: 5px solid red;
+  width: 40%;
+  margin-bottom: 5px; }
+
+.estiloNosotros {
+  background-color: #b9b9b9;
+  color: #ffa600; }
+
+.flexNosotros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.flex {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  width: 80%;
+  height: auto;
+  margin: 10%;
+  margin-top: 2%;
+  justify-content: center; }
+
+.flexProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+nav {
+  background-color: #ffa3a3; }
+
+nav div ul li a {
+  display: flex;
+  justify-content: space-around; }
+
+#estiloNav {
+  background-color: rgba(255, 214, 202, 0.801);
+  font-size: 25px;
+  color: white; }
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; }
+
+nav {
+  color: black;
+  font-size: 20px; }
+
+div {
+  color: black;
+  font-size: 20px; }
+
+p {
+  color: black;
+  font-size: 20px; }
+
+.espacio-1 {
+  margin: 2.5px; }
+
+.espacio-2 {
+  margin: 5px; }
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0; }
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none; }
+
+.titulosHeader {
+  text-align: center;
+  background-color: #FFC48C;
+  font-size: 400%; }
+
+.homeSection {
+  margin: 5%;
+  text-align: center;
+  display: block;
+  font-size: 156%;
+  text-align: center; }
+
+.homeCajas, .bordes {
+  border-color: red;
+  border: 4px inset rgba(164, 10, 10, 0.79); }
+
+.contactoEspacio {
+  height: 5vh; }
+
+.contactoEspacioDos {
+  margin: 6px; }
+
+.recomendacionGridBordes {
+  padding: 10px;
+  margin: 5px;
+  border: solid 2px red; }
+
+.productosTitulo {
+  font-size: 150%;
+  color: black; }
+
+.footerOvalo {
+  height: 90px;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  width: auto;
+  background-image: linear-gradient(to top, rgba(255, 214, 202, 0.801), rgba(255, 166, 139, 0.801)); }

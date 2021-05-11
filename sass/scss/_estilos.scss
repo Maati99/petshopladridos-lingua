@@ -1,0 +1,55 @@
+$rojo: red;
+$colorFondo: rgba(255, 214, 202, 0.801);
+
+.homeCajas{
+    border-color: $rojo;
+    border: 4px inset rgba(164,10,10,0.79);
+    background-color: $colorFondo;
+}
+.bordes{
+    @extend .homeCajas
+}
+.bordesRedondeados{
+    border: 5px solid $rojo;
+    width: 40%;
+    margin-bottom: 5px;
+}
+.estiloNosotros{
+    background-color: rgb(185, 185, 185);
+    color: rgb(255, 166, 0);
+}
+.flexNosotros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+.flex{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    margin: 10%;
+    margin-top: 2%;
+    justify-content: center;
+}
+.flexProductos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav{
+    background-color: rgb(255, 163, 163);
+
+}
+nav div ul li{
+    a{
+     display: flex;
+     justify-content: space-around; 
+    }
+}
+#estiloNav{
+    background-color: $colorFondo;
+    font-size: 25px;
+    color: white;
+}
