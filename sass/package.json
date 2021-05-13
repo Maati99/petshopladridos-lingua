@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "Archivo necesario para la compilación de sass y el funcionamiento correcto del proyecto de la pagina -Ladridos peshop-",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
