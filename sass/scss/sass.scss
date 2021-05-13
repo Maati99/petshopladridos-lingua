@@ -40,3 +40,96 @@
 	width: auto;
     background-image: linear-gradient(to top, rgba(255, 214, 202, 0.801),  rgba(255, 166, 139, 0.801));
 }
+.fotoInicio{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+picture{
+    line-height: 0%;
+
+}
+.fuente{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 130%;
+}
+.centro{
+    text-align: center;
+    align-items: center;
+}
+#fuenteSize{
+    font-size: 190%;   
+}
+.fuenteSizeTres{
+    display: block;
+    font-size: 156%;
+    text-align: center;
+}
+.bordeMargen{
+    padding: 30px;
+}
+.espacioDos{
+    margin-bottom: 5%;
+    background-color: rgb(247, 216, 158);
+}
+.espacioCuatro{
+    margin: 6px;
+}
+/*FlexBox*/
+.flex{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    margin: 10%;
+    margin-top: 2%;
+    justify-content: center;
+}
+.flexDos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+}
+.flexFooter{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.flexProductos{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+}
+/* Grid */
+.gridTablaTres{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 2%;
+    background-color: rgba(255, 214, 202, 0.801);
+}
+#texto{
+    width: 350px;
+    border: rgb(235, 38, 38) 3px solid; 
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    vertical-align: bottom;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+.margin{
+    margin: 50px;
+}
+.imagenAbonar {
+    margin: 0%;
+    text-align: right;
+}

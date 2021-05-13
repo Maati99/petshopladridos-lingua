@@ -7,10 +7,9 @@
     <meta name="keywords" content="alimento balanceado perro gato hamster juguetes petshop venta compra mascotas oferta">
     <meta name="description" content="Contactanos por nuestra pagina oficial o encontranos en el local para una respuesta inmediata">
     <meta name="author" content="Matias Lingua">
-    <title>Ladridos PetShop - CONTACTO</title>
+    <title>Ladridos PetShop</title>
     <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
-    <link rel="stylesheet" href="estilo/estilo.css">
-    <link rel="stylesheet" href="sass/css/cssparasass.css">
+    <link rel="stylesheet" href="sass\css\cssparasass.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -20,77 +19,102 @@
       <img src="media/fotoheader2.png" alt="imginicioenvio" class="fotoInicio">
       <img src="media/fotoheader.png" alt="imginicio" class="fotoInicio">
     </picture>
-    <h1 class="titulosHeader">CONTACTO</h1>
+    <h1 id="titulo">CONTACTO</h1>
     <hr>
     <!--MENU-->
 		<center>
-			<nav class="navbar navbar-expand-lg navbar-dark espacio-1">
-				<a class="navbar-brand" href="index.html">LADRIDOS PET-SHOP</a>
+			<nav class="navbar navbar-expand-lg navbar-dark espacio-1 navColor" id="negro">
+				<a class="navbar-brand" id="rojoN" href="index.html">LADRIDOS PET-SHOP<p id="rojoN">INICIO</p></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				  <ul class="navbar-nav">
+				  <ul class="navbar-nav mx-auto">
 							<li class="nav-item dropdown">
-					  <a class="nav-link dropdown-toggle espacio-2" href="productos.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  <a class="nav-link dropdown-toggle espacio-2 pr-5" id="rojo" href="productos.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						PRODUCTOS
 					  </a>
-					  <div class="dropdown-menu" id="estiloNav" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="perro.html">Alimento de perro</a>
-						<a class="dropdown-item" href="gato.html">Alimento de gato</a>
-						<a class="dropdown-item" href="otro.html">Otro</a>
-						<a class="dropdown-item" href="cuidado.html">Cuidado</a>
-						<a class="dropdown-item" href="juguetes.html">Juguetes</a>
+					  <div class="dropdown-menu" id="estiloNav" id="bg" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" id="rojo" href="perro.html">Alimento de perro</a>
+						<a class="dropdown-item" id="rojo" href="gato.html">Alimento de gato</a>
+						<a class="dropdown-item" id="rojo" href="otro.html">Otro</a>
+						<a class="dropdown-item" id="rojo" href="cuidado.html">Cuidado</a>
+						<a class="dropdown-item" id="rojo" href="juguetes.html">Juguetes</a>
 					  </div>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link espacio-2" href="sobrenosotros.html">NOSOSOTROS</a>
+					  <a class="nav-link espacio-2 pr-4" id="naranja" href="sobrenosotros.html">SOBRE NOSOSOTROS</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link espacio-2" href="recomendaciones.html">RECOMENDACIONES</a>
+					  <a class="nav-link espacio-2 pr-4" id="naranja" href="recomendaciones.html">RECOMENDACIONES</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link espacio-2" href="contacto.html">CONTACTO</a>
+						<a class="nav-link espacio-2 pr-5" id="rojo" href="contacto.html">CONTACTO</a>
 					</li>
 				  </ul>
 				</div>
 			  </nav>
-		</center>
+    <!--FIN DE MENU-->
         <hr>
   <section class="fuente bordeMargen">
     <!--FORMULARIO DE CONTACTO-->
     <p class="escribinos espacioDos">ESCRIBINOS MEDIANTE ESTE MEDIO Y TE RESPONDEMOS A LA BREVEDAD</p>
-        <fieldset class="contacto backgroudColor espacioTres centro contactoBloque">
-             <legend>CONTACTO</legend>
-               <p class="contactoEspacio"><label for="nombre">Nombre:</label>
-               <input type="name" name="nombre"></p>
-               <p class="contactoEspacio"><label for="numerodetelefono">Número de telefono:</label>
-               <input type="tel" name="numerodetelefono"></p>
-               <p class="contactoEspacio"><label for="email">Correo electornico:</label>
-               <input type="email" name="email"></p>
-             <p class=".contactoEspacioDos"><textarea name="comentarios" cols="50" rows="5" placeholder="COMENTARIOS" style="text-align: center;"></textarea></p>
-             <span>¿ Acepta que la respuesta puede demorarse ?</span>
-             <div class="btn-group-toggle" data-toggle="buttons">
-              <label class="btn btn-secondary active">
-                <input type="checkbox" checked>ACEPTO
-              </label>
-            </div>
-            <hr>
-                <p class="centro"><input type="reset" value="Limpiar formulario"/>
-                <input type="submit" value="Enviar"/></p>             
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="well well-sm">
+                  <form class="form-horizontal" method="post">
+                      <fieldset>
+                          <legend class="text-center header">CONTACTO</legend>
+  
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                              <div class="col-md-8">
+                                  <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                              </div>
+                          </div>
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                              <div class="col-md-8">
+                                  <input id="email" name="email" type="text" placeholder="Correo Electronico" class="form-control">
+                              </div>
+                            </div>
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                              <div class="col-md-8">
+                                  <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                              </div>
+                          </div>
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                              <div class="col-md-8">
+                                  <textarea class="form-control" id="message" name="message" placeholder="Escribi tu mensaje o consulta aqui" rows="7"></textarea>
+                              </div>
+                            </div>
+                          <div class="form-group">
+                              <div class="col-md-12 text-center">
+                                  <button type="submit" class="btn btn-primary btn-lg" id="bgC">ENVIAR</button>
+                              </div>
+                          </div>
+                      </fieldset>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </div>          
              <hr>
-                <p class="ademas .contactoEspacioDos centro">Ademas podes contactarnos por Whatsapp, Instagram o Facebook</p>
+                <p class="ademas espacioCuatro centro">Ademas podes contactarnos por Whatsapp, Instagram o Facebook</p>
                 <p class="centro"><img src="media/redes.jpg" alt="redes"></p>                  
-             </fieldset>        
-        </form>
-    <p class="nosEncontramos .contactoEspacioDos backgroudColor">Encontranos en Calle 520 entre 3 y 4 pegado al banco provincia | La Plata</p>
+              </center>
+    <p class="nosEncontramos espacioCuatro backgroudColor">Encontranos en Calle 520 entre 3 y 4 pegado al banco provincia | La Plata</p>
   </section>
     <div class="centro"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d818.1936156579422!2d-57.979452470785404!3d-34.88700939877419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7121df6d47b%3A0x7a944be9236b5bbb!2sAv.%20520%20864-804%2C%20Ringuelet%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1616815225771!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-  <hr>
-  <div class="centro"><a href="index.html">INICIO</a>>CONTACTO</div>
   <!--PIE DE PAGINA-->   
-     <footer class="footerOvalo">
-        <p class="flexFooter">TODOS LOS DERECHOS RESERVADOS</p>
+     <footer id="ovalo">
+        <p class="flexFooter centro">
+          <img src="media/redes.jpg" alt="redes">
+          TODOS LOS DERECHOS RESERVADOS
+        </p>
      </footer>
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>

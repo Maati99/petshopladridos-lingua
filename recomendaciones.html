@@ -9,8 +9,7 @@
     <meta name="author" content="Matias Lingua">
     <title>Ladridos PetShop - RECOMENDACIONES</title>
     <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
-    <link rel="stylesheet" href="estilo/estilo.css">
-    <link rel="stylesheet" href="sass/css/cssparasass.css">
+    <link rel="stylesheet" href="sass\css\cssparasass.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -20,60 +19,62 @@
         <img src="media/fotoheader2.png" alt="imginicioenvio" class="fotoInicio">
         <img src="media/fotoheader.png" alt="imginicio" class="fotoInicio">
       </picture>
-      <h1 class="titulosHeader">RECOMENDACIONES</h1>
-      <hr>   
-      <!--MENU-->
-      <center>     
-        <nav class="navbar navbar-expand-lg navbar-dark espacio-1">
-          <a class="navbar-brand" href="index.html">LADRIDOS PET-SHOP</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle espacio-2" href="productos.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              PRODUCTOS
-              </a>
-              <div class="dropdown-menu" id="estiloNav" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="perro.html">Alimento de perro</a>
-              <a class="dropdown-item" href="gato.html">Alimento de gato</a>
-              <a class="dropdown-item" href="otro.html">Otro</a>
-              <a class="dropdown-item" href="cuidado.html">Cuidado</a>
-              <a class="dropdown-item" href="juguetes.html">Juguetes</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link espacio-2" href="sobrenosotros.html">NOSOSOTROS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link espacio-2" href="recomendaciones.html">RECOMENDACIONES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link espacio-2" href="contacto.html">CONTACTO</a>
-            </li>
-            </ul>
-          </div>
-          </nav>
+      <h1 id="titulo">RECOMENDACIONES</h1>
+      <hr>       
+    <!--MENU-->
+		<center>
+			<nav class="navbar navbar-expand-lg navbar-dark espacio-1 navColor" id="negro">
+				<a class="navbar-brand" id="rojoN" href="index.html">LADRIDOS PET-SHOP<p id="rojoN">INICIO</p></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				  <ul class="navbar-nav mx-auto">
+							<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle espacio-2 pr-5" id="rojo" href="productos.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						PRODUCTOS
+					  </a>
+					  <div class="dropdown-menu" id="estiloNav" id="bg" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" id="rojo" href="perro.html">Alimento de perro</a>
+						<a class="dropdown-item" id="rojo" href="gato.html">Alimento de gato</a>
+						<a class="dropdown-item" id="rojo" href="otro.html">Otro</a>
+						<a class="dropdown-item" id="rojo" href="cuidado.html">Cuidado</a>
+						<a class="dropdown-item" id="rojo" href="juguetes.html">Juguetes</a>
+					  </div>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link espacio-2 pr-4" id="naranja" href="sobrenosotros.html">SOBRE NOSOSOTROS</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link espacio-2 pr-4" id="naranja" href="recomendaciones.html">RECOMENDACIONES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link espacio-2 pr-5" id="rojo" href="contacto.html">CONTACTO</a>
+					</li>
+				  </ul>
+				</div>
+			  </nav>
+    <!--FIN DE MENU-->
           <hr>
           <!--CUERPO-->
-          <section class="fuente flexDos">
-          <b><u><p id="fuenteSize" class="bordeMargenTres centro">Algunas recomendaciones</p></b></u>
-          <div class="bordeMargen gridTabla backgroudColor">
-                    <div class="recomendacionGridBordes">Mascotas</div>
-                    <div class="recomendacionGridBordes">PERROS Y GATOS</div>
-                    <div class="recomendacionGridBordes">Recomendación 1</div>
-                    <div class="recomendacionGridBordes">Una buena alimentación proveerá a tu mascota de todos los nutrientes y necesidades energéticas para que su organismo se mantenga saludable.</div>
-                    <div class="recomendacionGridBordes">Recomendación 2</div>
-                    <div class="recomendacionGridBordes">Con los productos de alta calidad que encontraras en nuestra tienda podras tener la certeza de que estas brindandole salud y bienestar a tu mascota. Como saber que un alimento es bueno?--> Existen 3 principales factores: ingredientes, la proporcion y calidad de estos; el valor nutricional del alimento; sobre todo, la concentracion de proteinas y por ultimo su aceptabilidad, es decir que tanto intusiasmo produce en la mascota al tenerla en su plato.</div>           
+          <section class="fuente flexDos size">
+          <b><u id="rojo"><p id="fuenteSize" class="centro backgroudColor">Algunas recomendaciones</p></b></u>
+          <div class="bordeMargen backgroudColor">
+                    <p id="rojo">PARA PERROS Y GATOS</p>
+                    <p id="rojo">Recomendación 1</p>
+                    Una buena alimentación proveerá a tu mascota de todos los nutrientes y necesidades energéticas para que su organismo se mantenga saludable.
+                    <hr>
+                    <p id="rojo">Recomendación 2</p>
+                    Con los productos de alta calidad que encontraras en nuestra tienda podras tener la certeza de que estas brindandole salud y bienestar a tu mascota. Como saber que un alimento es bueno?--> Existen 3 principales factores: ingredientes, la proporcion y calidad de estos; el valor nutricional del alimento; sobre todo, la concentracion de proteinas y por ultimo su aceptabilidad, es decir que tanto intusiasmo produce en la mascota al tenerla en su plato.
           </div>
           </section>
       </center>
-      <div class="centro"><a href="index.html">INICIO</a>>RECOMENDACIONES</div>
             <!--PIE DE PAGINA-->
-            <div class="centro"><img src="media/redes.jpg" alt="redes"></div> 
-            <footer class="footerOvalo">   
-                <p class="flexFooter">TODOS LOS DERECHOS RESERVADOS</p>
+            <footer id="ovalo">   
+                <p class="flexFooter centro">
+                <img src="media/redes.jpg" alt="redes">
+                TODOS LOS DERECHOS RESERVADOS
+                </p>
             </footer>
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
