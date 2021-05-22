@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="sass\css\cssparasass.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <body>
       <picture>
@@ -23,23 +22,24 @@
       <hr>   
     <!--MENU-->
 		<center>
-			<nav class="navbar navbar-expand-lg navbar-dark espacio-1 navColor" id="negro">
-				<a class="navbar-brand" id="rojoN" href="index.html">LADRIDOS PET-SHOP<p id="rojoN">INICIO</p></a>
+			<nav class="navbar navbar-expand-lg navbar-dark espacio-1 navColor">
+				<i class="fas fa-paw espacio-2"></i>
+				<a class="navbar-brand" href="index.html">LADRIDOS PET-SHOP</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				  <ul class="navbar-nav mx-auto">
 							<li class="nav-item dropdown">
-					  <a class="nav-link dropdown-toggle espacio-2 pr-5" id="rojo" href="productos.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  <a class="nav-link dropdown-toggle espacio-2 pr-5" href="productos.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						PRODUCTOS
 					  </a>
 					  <div class="dropdown-menu" id="estiloNav" id="bg" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" id="rojo" href="perro.html">Alimento de perro</a>
-						<a class="dropdown-item" id="rojo" href="gato.html">Alimento de gato</a>
-						<a class="dropdown-item" id="rojo" href="otro.html">Otro</a>
-						<a class="dropdown-item" id="rojo" href="cuidado.html">Cuidado</a>
-						<a class="dropdown-item" id="rojo" href="juguetes.html">Juguetes</a>
+						<a class="dropdown-item" href="perro.html">Alimento de perro</a>
+						<a class="dropdown-item" href="gato.html">Alimento de gato</a>
+						<a class="dropdown-item" href="otro.html">Otro</a>
+						<a class="dropdown-item" href="cuidado.html">Cuidado</a>
+						<a class="dropdown-item" href="juguetes.html">Juguetes</a>
 					  </div>
 					</li>
 					<li class="nav-item">
@@ -49,7 +49,7 @@
 					  <a class="nav-link espacio-2 pr-4" id="naranja" href="recomendaciones.html">RECOMENDACIONES</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link espacio-2 pr-5" id="rojo" href="contacto.html">CONTACTO</a>
+						<a class="nav-link espacio-2 pl-5" href="contacto.html">CONTACTO</a>
 					</li>
 				  </ul>
 				</div>
@@ -59,61 +59,16 @@
           <hr>
       <!--CUERPO-->
       <div class="flexProductos">
-        <p id="texto"><img src="https://puppis.vteximg.com.br/arquivos/ids/170595-1000-1000/100001.jpg" alt="alimentopez">
-             ALIMENTO PARA PECES - Shulet Agua Fria - 10 gr $240
-             <span>Cantidad:</span>
-               <select name="Cantidad"><br>
-                 <option value="1">1</option>
-                 <option value="2">2</option>
-                 <option value="3">3</option>
-                 <option value="4">4</option>
-                 <option value="5">5</option>
-               </select>
-               <input type="submit" value="COMPRAR"/></p>
-        <p id="texto"><img src="https://puppis.vteximg.com.br/arquivos/ids/157811-600-600/132012_132014.png" alt="alimentopeztropical">
-              ALIMENTO PARA PECES TROPICALES - TetraColor Tropical Flakes Escamas - 28 Gr $1.090,00
-              <span>Cantidad:</span>
-                <select name="Cantidad"><br>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
-                <input type="submit" value="COMPRAR"/></p>
-        <p id="texto"><img src="https://puppis.vteximg.com.br/arquivos/ids/160172-1000-1000/366251.jpg" alt="alimentoroedor">
-          ALIMENTO PARA ROEDORES - Ranch Alfalfa En Cubos - 500gr $230
-            <span>Cantidad:</span>
-            <select name="Cantidad">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-            </select>
-            <input type="submit" value="COMPRAR"/></p>
-        <p id="texto"><img src="https://puppis.vteximg.com.br/arquivos/ids/157755-1000-1000/imagen9.jpg" alt="alimentoroedor">
-              ALIMENTO PARA TORTUGAS ACUATICAS - Tetra Reptomin en Palitos - 24 Gr $760
-                <span>Cantidad:</span>
-                <select name="Cantidad">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                </select>
-                <input type="submit" value="COMPRAR"/></p>  
+          <p id="texto"><img src="https://puppis.vteximg.com.br/arquivos/ids/170595-1000-1000/100001.jpg" alt="alimentopez">
+              ALIMENTO PARA PECES - Shulet Agua Fria - 10 gr $240</p>
+          <p id="texto"><img src="https://puppis.vteximg.com.br/arquivos/ids/157811-600-600/132012_132014.png" alt="alimentopeztropical">
+              ALIMENTO PARA PECES TROPICALES - TetraColor Tropical Flakes Escamas - 28 Gr $1.090,00</p>
+          <p id="texto"><img src="https://puppis.vteximg.com.br/arquivos/ids/160172-1000-1000/366251.jpg" alt="alimentoroedor">
+              ALIMENTO PARA ROEDORES - Ranch Alfalfa En Cubos - 500gr $230</p>
+          <p id="texto"><img src="https://puppis.vteximg.com.br/arquivos/ids/157755-1000-1000/imagen9.jpg" alt="alimentoroedor">
+              ALIMENTO PARA TORTUGAS ACUATICAS - Tetra Reptomin en Palitos - 24 Gr $760</p>
           <p id="texto"><img src="https://puppis.vteximg.com.br/arquivos/ids/158403-1000-1000/166009.jpg" alt="alimentoroedor">
-              ALIMENTO PARA AVES - Nelsoni Ranch - 750Gr $380
-                <span>Cantidad:</span>
-                <select name="Cantidad">
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
-                </select>
-                    <input type="submit" value="COMPRAR"/></p>        
+              ALIMENTO PARA AVES - Nelsoni Ranch - 750Gr $380</p>
     </div>
     <!--PIE DE PAGINA-->
     <footer id="ovalo" >
@@ -124,5 +79,6 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/56369c9e0a.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -36,6 +36,9 @@ img{
   h1{
      font-size: 250%;
  }
+ .pSize{
+         font-size: 15px;
+ }
 }
 @media (max-width:480px){
  .menu{
@@ -99,6 +102,30 @@ img{
  background-color: rgba(255, 214, 202, 0.801);
  text-align: center;
 }
+.gridContacto {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+}
+.pl-5,
+.px-5 {
+  padding-left: 5rem !important;
+}
+.pr-5,
+.px-5 {
+  padding-right: 5rem !important;
+}
+.divSize{
+        font-size: 27px;
+}
+#nosEncon{
+        color: red;
+        font-size: 150%;
+        text-align: center;
+        margin-top: 200px;           
+}
 }
 footer{
   height: 15px;
@@ -106,7 +133,28 @@ footer{
   display: flex;
   justify-content: center;   
 }
-iframe {
-  max-width: 100%;
-  height: auto;
+.map-responsive{
+
+        overflow:hidden;
+    
+        padding-bottom:56.25%;
+    
+        position:relative;
+    
+        height:0;
+    
+    }
+    
+.map-responsive iframe{
+    
+        left:0;
+    
+        top:0;
+    
+        height:100%;
+    
+        width:100%;
+    
+        position:absolute;
+    
 }

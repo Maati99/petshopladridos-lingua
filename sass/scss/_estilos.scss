@@ -64,7 +64,7 @@ h1{
     text-align: center;
     color:rgb(8, 3, 3);
     background-image:linear-gradient(#FFC48C, rgb(255, 235, 217) ) ;
-    font-size: 300%;
+    font-size: 150%;
     animation-duration: 2s;
     animation-name: titulo;
 }
@@ -104,7 +104,7 @@ section {
       }
 }             
 ul{
-font-size: 145%;
+font-size: 100%;
 }
 .escribinos{
 color: rgb(10, 6, 6);
@@ -117,9 +117,9 @@ font-size: 180%;
 text-align: center;           
 }
 .nosEncontramos{
-color: red;
-font-size: 187.5%;
-text-align: center;           
+    color: red;
+    font-size: 100%;
+    text-align: center;           
 }
 article {
     font-family: 'Josefin Sans', sans-serif;
@@ -218,7 +218,7 @@ animation: desplazaLeft 3s;
 }
 
 #naranja{
-     color: rgb(255, 136, 0);
+     color: rgb(255, 115, 0);
 }
 section div p{
     color:rgb(5, 5, 7);
