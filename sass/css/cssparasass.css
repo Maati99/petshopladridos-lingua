@@ -191,7 +191,7 @@ article p {
 section ul li a {
   color: red;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 100%; }
+  font-size: 80%; }
 
 ul {
   font-size: 100%; }
@@ -4010,7 +4010,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
+  background-color: #0000003d;
   border: 1px solid transparent;
   border-radius: 0.25rem; }
 
@@ -4264,7 +4264,7 @@ input[type="button"].btn-block {
   color: #ff6a6a; }
 
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.712);
   border-color: rgba(255, 255, 255, 0.1); }
 
 .navbar-dark .navbar-toggler-icon {
@@ -5670,7 +5670,7 @@ a.close.disabled {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 1280px;
   overflow: hidden; }
 
 .carousel-inner::after {

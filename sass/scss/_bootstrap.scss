@@ -4433,7 +4433,7 @@ $medidas: (color: black, bold: 10px);
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: transparent;
+    background-color: #0000003d;
     border: 1px solid transparent;
     border-radius: 0.25rem;
   }
@@ -4761,7 +4761,7 @@ $medidas: (color: black, bold: 10px);
   }
   
   .navbar-dark .navbar-toggler {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.712);
     border-color: rgba(255, 255, 255, 0.1);
   }
   
@@ -6484,7 +6484,7 @@ $medidas: (color: black, bold: 10px);
   
   .carousel-inner {
     position: relative;
-    width: 100%;
+    width: 1280px;
     overflow: hidden;
   }
   
