@@ -100,7 +100,17 @@ img {
     color: red;
     font-size: 150%;
     text-align: center;
-    margin-top: 200px; } }
+    margin-top: 200px; }
+  .justify-content-center-carrousel {
+    -ms-flex-pack: center !important;
+    justify-content: center !important; }
+  .rowCarrousel {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; } }
 
 .map-responsive {
   overflow: hidden;
@@ -5670,7 +5680,7 @@ a.close.disabled {
 
 .carousel-inner {
   position: relative;
-  width: 1280px;
+  width: 100%;
   overflow: hidden; }
 
 .carousel-inner::after {
